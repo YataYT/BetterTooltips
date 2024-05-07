@@ -119,7 +119,7 @@ namespace PrettyRarities.Graphics.Shaders
         /// Only manually call if you are passing the effect into <see cref="SpriteBatch.Begin()"/>.
         /// </summary>
         public void ApplyParams() {
-            
+            WrappedEffect.Parameters["time"]?.SetValue(Main.GlobalTimeWrappedHourly);
         }
     }
 }
