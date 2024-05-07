@@ -1,3 +1,2 @@
 v{ModVersion}
-- Fixed the entire mod breaking because of the update to .NET 8.0
-- Adjusted some rarities' effects for better readability
+- Fixed time not working properly
