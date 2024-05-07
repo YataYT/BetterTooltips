@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>PrettyRarities</AssemblyName>
+    <TargetFramework>net8.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="assets\shaders\FieryRedRarity.fx" />
+    <None Remove="assets\shaders\GlowRotate.fx" />
+    <None Remove="Assets\Shaders\PulseGradient.fx" />
+    <None Remove="assets\shaders\RainbowRarityGlow.fx" />
+    <None Remove="assets\shaders\RarityGradient.fx" />
+    <None Remove="assets\shaders\RarityGradient2.fx" />
+    <None Remove="Assets\Textures\BloodParticle.png" />
+    <None Remove="Assets\Textures\BurstParticle.png" />
+    <None Remove="Assets\Textures\FlareGlow.png" />
+    <None Remove="Assets\Textures\FogParticle.png" />
+    <None Remove="Assets\Textures\Noise\BlurryPerlinNoise.png" />
+    <None Remove="Assets\Textures\Noise\BurnNoise.png" />
+    <None Remove="Assets\Textures\Noise\CracksNoise.png" />
+    <None Remove="Assets\Textures\Noise\CrustyNoise.png" />
+    <None Remove="Assets\Textures\Noise\Crystals.png" />
+    <None Remove="Assets\Textures\Noise\CrystalsNormalMap.png" />
+    <None Remove="Assets\Textures\Noise\CultistRayMap.png" />
+    <None Remove="Assets\Textures\Noise\FireNoise.png" />
+    <None Remove="Assets\Textures\Noise\FrozenCrust.png" />
+    <None Remove="Assets\Textures\Noise\HarshNoise.png" />
+    <None Remove="Assets\Textures\Noise\HexagonGrid.png" />
+    <None Remove="Assets\Textures\Noise\HoneycombNoise.png" />
+    <None Remove="Assets\Textures\Noise\LavaNoise.png" />
+    <None Remove="Assets\Textures\Noise\LessCrustyNoise.png" />
+    <None Remove="Assets\Textures\Noise\MeltyNoise.png" />
+    <None Remove="Assets\Textures\Noise\MilkyNoise.png" />
+    <None Remove="Assets\Textures\Noise\MoltenNoise.png" />
+    <None Remove="Assets\Textures\Noise\Neurons2.png" />
+    <None Remove="Assets\Textures\Noise\Perlin.png" />
+    <None Remove="Assets\Textures\Noise\SharpNoise.png" />
+    <None Remove="Assets\Textures\Noise\SimpleNoise.png" />
+    <None Remove="Assets\Textures\Noise\SmokyNoise.png" />
+    <None Remove="Assets\Textures\Noise\Smudges.png" />
+    <None Remove="Assets\Textures\Noise\SwirlNoise.png" />
+    <None Remove="Assets\Textures\Noise\TechyNoise.png" />
+    <None Remove="Assets\Textures\Noise\TrypophobiaNoise.png" />
+    <None Remove="Assets\Textures\Noise\VoidGashes.png" />
+    <None Remove="Assets\Textures\Noise\VoronoiCellular.png" />
+    <None Remove="Assets\Textures\Noise\VoronoiLoop.png" />
+    <None Remove="Assets\Textures\Noise\VoronoiShapes.png" />
+    <None Remove="Assets\Textures\Noise\WaterNoise.png" />
+    <None Remove="Assets\Textures\Noise\WavyNeurons.png" />
+    <None Remove="Assets\Textures\Noise\WavyNoise.png" />
+    <None Remove="Graphics\BloomGlow.png" />
+    <None Remove="Graphics\BloomParticle.png" />
+    <None Remove="Graphics\CodeSymbolParticle.png" />
+    <None Remove="Graphics\MusicNoteParticle.png" />
+    <None Remove="Graphics\QuestFishParticle.png" />
+    <None Remove="Graphics\SparkleParticle.png" />
+    <None Remove="Graphics\SquareParticle.png" />
+    <None Remove="Graphics\StarParticle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+</Project>

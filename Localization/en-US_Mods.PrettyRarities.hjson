@@ -1,0 +1,25 @@
+Configs: {
+	PrettyRaritiesConfig: {
+		DisplayName: Pretty Rarities Config
+
+		ParticleSettings: {
+			Label: Particle Settings
+			Tooltip: ""
+		}
+
+		EnableGlow: {
+			Label: Enable Glow
+			Tooltip: ""
+		}
+	}
+
+	ParticleSettings: {
+		Tooltip: ""
+		Disabled.Label: Disabled
+		HeavilyReduced.Label: Heavily Reduced
+		Reduced.Label: Reduced
+		Normal.Label: Normal
+		Increased.Label: Increased
+		HeavilyIncreased.Label: Heavily Increased
+	}
+}

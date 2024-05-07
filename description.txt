@@ -1,0 +1,9 @@
+This mod adds a lot more shine to tooltips when you hover over them, featuring shaders, particles, and glow. Lower rarities get minimal changes, while higher rarities get more and more visuals.
+
+Features:
+- Customized effects for each rarity, including customized particles
+- Config options for controlling particle rate and toggling glow
+- Effect appears on the text from picked up and fished items, and mouseover text
+- Custom Calamity rarities
+
+If you have any more ideas, please suggest them in the Workshop comments section.

@@ -1,0 +1,6 @@
+displayName = Better Tooltips
+author = Yata
+version = 1.4.1
+side = Client
+hideCode = true
+hideResources = true
